@@ -1,4 +1,3 @@
-// 2504
 #include <iostream>
 #include <stack>
 #include <string>
