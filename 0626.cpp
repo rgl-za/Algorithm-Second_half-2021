@@ -1,5 +1,4 @@
 //14719
-
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -32,9 +31,7 @@ int main(){
 }
 
 
-//1062
-//내가 시도한 방법
-
+//1062 내가 시도한 방법이지만 실패
 #include <cstring>
 #include <vector>
 #include <iostream>

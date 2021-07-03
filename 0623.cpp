@@ -1,5 +1,3 @@
-//14888
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
