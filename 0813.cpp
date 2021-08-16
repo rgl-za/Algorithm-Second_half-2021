@@ -1,4 +1,4 @@
-/*
+
 //땅 따먹기
 #include <iostream>
 #include <vector>
@@ -27,7 +27,7 @@ int solution(vector<vector <int>> land){
 
     return answer;
 }
-*/
+
 
 /*
 // 처음 시도한 방법
