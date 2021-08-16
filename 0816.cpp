@@ -1,4 +1,3 @@
-/*
 //유클리드 호제법
 int gcd(int n, int m){
     int r;
@@ -16,8 +15,8 @@ int main(){
 
     cout << gcd(n,m) << (n*m)/gcd(n,m);
 }
-*/
-/*
+
+ 
 //최대공약수와 최소공배수
 #include <string>
 #include <vector>
@@ -42,12 +41,12 @@ vector<int> solution(int n, int m) {
     
     return answer;
 }
-*/
+ 
 
 //하샤드 수
 
 //숫자 자릿수 분리하기 a%10 -> a/=10
-/*
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -84,8 +83,8 @@ int main(){
 
     cout << solution(x);
 }
-*/
-/*
+
+ 
 //콜라츠 추측
 
 //간과한 점 정수가 int형 범위를 넘어갈 수 있는 점
@@ -124,7 +123,7 @@ int main(){
 
     cout << solution(num);
 }
-*/
+
 
 //핸드폰 번호 가리기
 #include <iostream>
@@ -154,3 +153,19 @@ int main(){
     cout << solution(phone_number);
 }
 
+// 같은 숫자는 싫어
+#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+vector<int> solution(vector<int> arr){
+
+    arr.erase(unique(arr.begin(), arr.end()), arr.end());
+
+    vector<int> answer = arr;
+
+
+    return answer;
+
+}
