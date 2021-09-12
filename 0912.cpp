@@ -207,3 +207,25 @@ int main(){
 
     cout << solution(n);
 }
+
+
+//최솟값 구하기
+#include <iostream>
+#include<vector>
+#include <algorithm>
+using namespace std;
+
+int solution(vector<int> A, vector<int> B)
+{
+    int answer = 0;
+
+    sort(A.begin(), A.end());
+    sort(B.begin(), B.end());
+    for(int i=0; i<A.size(); i++){
+        answer+=A[A.size()-1-i]*B[i];
+        /*A(내림차순으로 정렬된 벡터) * B(오름차순으로 정렬된 벡터)
+        형태로 만들어준 뒤, 순서대로 쌍을 곱해주가*/
+    }
+
+    return answer;
+}
